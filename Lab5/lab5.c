@@ -16,7 +16,8 @@ void fmt_error(char *f, char *msg) {
 }
 
 int main() {
-		
+	
+	printf(" ");
     int choice = 0;
 	menu_t *main = mainmenu_init();
 	if (main == NULL) {
